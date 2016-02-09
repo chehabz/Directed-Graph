@@ -44,9 +44,7 @@ DirectedGraph.prototype = {
 	* @return True if is empty, false if it isn't
 	*/
 	isEmpty: function(){
-		if(this._nodes.length==0)
-			return true;
-		return false;
+		return (this._nodes.length == 0);
 	},
 	/*
 	* reset
